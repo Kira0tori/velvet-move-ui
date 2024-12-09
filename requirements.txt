@@ -1,3 +1,4 @@
 ﻿streamlit
 openpyxl ==3.1.5
 matplotlib
+scipy
