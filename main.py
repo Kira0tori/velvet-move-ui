@@ -10,11 +10,11 @@ from angle_calc import calculate_signed_angle_between_vectors
 
 
 def main():
+    st.image("VIT_2024_square_white.png")
     #Add title and text explenation
     st.title("Post-traitement des données Velvet-Move")
     file = st.file_uploader("Please upload your exam file below (.xlsx format)")
     if file is not None:
-        # file_location = 'C:\\Users\\antoi\\Desktop\\VELVET\\VELVET-MOVE\\Caremosim12.xlsx'
         wb = openpyxl.load_workbook(filename=file, data_only=True)
         ws = wb.active
         px = 1 / plt.rcParams['figure.dpi']  # pixel in inches
