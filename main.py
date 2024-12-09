@@ -10,7 +10,7 @@ from angle_calc import calculate_signed_angle_between_vectors
 
 
 def main():
-    st.image("VIT_2024_square_white.png")
+    st.image("header.png")
     #Add title and text explenation
     st.title("Post-traitement des données Velvet-Move")
     file = st.file_uploader("Please upload your exam file below (.xlsx format)")
